@@ -59,6 +59,10 @@ a:hover {
   color: #4e4e4e;
 }
 
+.card {
+  overflow: hidden
+}
+
 .box-shadow,
 .card-blog,
 .work-box,
@@ -782,6 +786,7 @@ a:hover {
 }
 
 .hero .hero-subtitle {
+  color:#DD6B37;
   font-size: 1.5rem;
   font-weight: 600;
 }
