@@ -62,6 +62,9 @@ a:hover {
 .card {
   overflow: hidden
 }
+.card-img {
+  background: black
+}
 
 .box-shadow,
 .card-blog,
@@ -1269,7 +1272,7 @@ a:hover {
   padding: 0 15px 5px;
   overflow: hidden;
   background-color: #DD6B37;
-  border-radius: 4px;
+  border: #fff solid 3px;
 }
 
 .card-blog .card-category .category {
