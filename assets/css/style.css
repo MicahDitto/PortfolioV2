@@ -1489,3 +1489,17 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+
+.proj-text a,
+.proj-text p,
+.proj-text h2 {
+  color:#fff;
+}
+
+.nav-tabs>li>a {
+  color:#fff;
+}
