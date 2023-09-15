@@ -4,15 +4,15 @@
   /**
    * Tab navigator
    */
-  $(document).ready(function () {
-    // get the tab from url
-    let hash = window.location.hash;
-    // if a hash is present (when you come to this page)
-    if (hash != "") {
-      // show the tab
-      $('.nav-tabs a[href="' + hash + '"]').tab("show");
-    }
-  });
+  // $(document).ready(function () {
+  //   // get the tab from url
+  //   let hash = window.location.hash;
+  //   // if a hash is present (when you come to this page)
+  //   if (hash != "") {
+  //     // show the tab
+  //     $('.nav-tabs a[href="' + hash + '"]').tab("show");
+  //   }
+  // });
 
   /**
    * Easy selector helper function

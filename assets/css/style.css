@@ -438,7 +438,7 @@ a:hover {
 
 .button:hover {
   background-color: #F3CCBB;
-  color: #fff;
+  color: #DD6B37;
   transition: all 500ms ease;
 }
 
@@ -1494,12 +1494,64 @@ footer .credits a {
 # Portfolio Details
 --------------------------------------------------------------*/
 
-.proj-text a,
+/* .proj-text a, */
 .proj-text p,
-.proj-text h2 {
+.proj-text h2,
+.proj-text h4,
+.proj-text li {
   color:#fff;
 }
 
 .nav-tabs>li>a {
   color:#fff;
+}
+
+.project-title {
+  display:flex;
+  justify-content: center;
+  justify-self: center;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.marg-y {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+.marg-y h4 {
+  margin-bottom: 2rem;
+}
+.btn-secondary {
+  background-color: #1B1B1B;
+  border: #DD6B37 solid 1px;
+  color: #DD6B37;
+}
+.center {
+  margin: 0 auto;
+  display: block;
+}
+.center-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-body p {
+  color:#1E1E1E
+}
+
+h3 .bi {
+  color: #fff;
+}
+.padding-7 {
+  padding: 3rem 7rem 3rem 7rem; 
+}
+hr .add-space {
+  margin: 6rem 0rem 6rem 0rem !important;
+}
+.proj-section {
+  height:100%;
+  width: auto;
+}
+.title-aura {
+  margin-bottom: -6rem;
 }
