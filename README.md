@@ -1,2 +1,2 @@
 # PortfolioV2
-V2 of my Portfoloio
+V2 of my Portfolio
